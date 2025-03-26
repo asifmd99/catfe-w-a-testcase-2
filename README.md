@@ -21,7 +21,7 @@ dynamically generates test scenarios leveraging LLM(Gemini) based on contextual 
 📹 [Video Demo](https://drive.google.com/file/d/1WLSVweWN41dxI_DihE2oGCitkKqYgh4U/view?usp=sharing) 
 🖼️ Screenshots:
 
-![Screenshot 1](link-to-image)
+![Screenshot](https://drive.google.com/file/d/1XkjNTGWxy1BbBsNcIbwBIDQNigbRIb--/view?usp=sharing)
 
 ## 💡 Inspiration
 We were inspired by the complexity and critical nature of modern financial ecosystems, where a single overlooked edge case can result in system failures, financial losses, or regulatory issues. Manual test case creation is time-consuming and often lacks contextual depth, especially in systems that evolve rapidly.
