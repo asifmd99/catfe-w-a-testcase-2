@@ -6,7 +6,7 @@ import ReactJson from 'react-json-view';
 function ChatForm() {
   const [messages, setMessages] = useState([]);
   const [results, setResults] = useState('');
-  const [step, setStep] = useState(1);
+  const [step, setStep] = useState(0);
   const [formVisible, setFormVisible] = useState(true);
   const [isBDDEditable, setIsBDDEditable] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
