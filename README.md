@@ -1,20 +1,21 @@
- 🚀 Project Name
+Context Aware Testing System for Financial Ecosystems
 
 ## 📌 Table of Contents
-- [Introduction](#introduction)
-- [Demo](#demo)
-- [Inspiration](#inspiration)
-- [What It Does](#what-it-does)
-- [How We Built It](#how-we-built-it)
-- [Challenges We Faced](#challenges-we-faced)
-- [How to Run](#how-to-run)
-- [Tech Stack](#tech-stack)
-- [Team](#team)
+- [Introduction]
+- [Demo]
+- [Inspiration]
+- [What It Does]
+- [How We Built It]
+- [Challenges We Faced]
+- [How to Run]
+- [Tech Stack]
+- [Team]
 
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+Our project is a Context Aware Testing System for Financial Ecosystems. It's a system that can
+dynamically generates test scenarios leveraging LLM(Gemini) based on contextual inputs to simulate real-world usage and edge cases effectively.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -24,37 +25,35 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+We were inspired by the complexity and critical nature of modern financial ecosystems, where a single overlooked edge case can result in system failures, financial losses, or regulatory issues. Manual test case creation is time-consuming and often lacks contextual depth, especially in systems that evolve rapidly.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+A system that could understand the business context, analyze backend logic, and generate intelligent test scenarios using LLMs like Gemini. By automating the generation of BDD-style test cases, our system enables QA teams and developers to simulate real-world usage and edge cases at scale — reducing human effort while increasing test coverage and reliability.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+We used ReactJs and Python along with gemini API and GitHub api
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+LLM Limitations: At times, the Gemini model would hallucinate or generate vague steps
+GitHub integration: Pulling code recursively from repositories and filtering relevant files  introduced challenges in performance and API rate-limiting.
 
 ## 🏃 How to Run
 1. Clone the repository  
-   ```sh
-   git clone https://github.com/your-repo.git
-   ```
 2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
+   pip install flask dotenv google_generativeai 
+   npm install 
 3. Run the project  
-   ```sh
-   npm start  # or python app.py
-   ```
+   Backend- python main.py
+   Frontend- npm run dev
+   
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: ReactJs
+- 🔹 Backend: Python/ FastAPI /
+- 🔹 Other: Gemini API / GitHub API
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Kashish Agarwal** 
+- **Sivam Das** 
+- **MD Asif** 
+- **Prashanth Chowdary**
