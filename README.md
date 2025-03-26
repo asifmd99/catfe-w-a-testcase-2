@@ -1,15 +1,15 @@
 Context Aware Testing System for Financial Ecosystems
 
 ## 📌 Table of Contents
-- [Introduction]
-- [Demo]
-- [Inspiration]
-- [What It Does]
-- [How We Built It]
-- [Challenges We Faced]
-- [How to Run]
-- [Tech Stack]
-- [Team]
+- Introduction
+- Demo
+- Inspiration
+- What It Does
+- How We Built It
+- Challenges We Faced
+- How to Run
+- Tech Stack
+- Team
 
 ---
 
