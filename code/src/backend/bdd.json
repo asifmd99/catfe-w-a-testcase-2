@@ -1,0 +1,15 @@
+{
+    "message": "Context received successfully",
+    "BDD": [
+        " Scenario 1: Successful Login\n     Given a user with valid credentials\n     When the user submits their credentials\n     Then the user is successfully logged in",
+        " Scenario 2: Failed Login - Invalid Password\n     Given a user with a valid username and an incorrect password\n     When the user submits their credentials\n     Then the user is not logged in and receives an appropriate error message",
+        " Scenario 3: Failed Login - Invalid Username\n     Given a user with an invalid username and a valid password\n     When the user submits their credentials\n     Then the user is not logged in and receives an appropriate error message",
+        " Scenario 4: Failed Login - Empty Credentials\n     Given a user submits empty username and password fields\n     When the user attempts to log in\n     Then the user is not logged in and receives an appropriate error message",
+        " Scenario 1: Successful Task Creation\n     Given a logged-in user\n     When the user enters valid task details\n     Then the task is created and displayed in the task list",
+        " Scenario 2: Failed Task Creation - Empty Task Details\n     Given a logged-in user\n     When the user attempts to create a task with empty details\n     Then the task is not created and an appropriate error message is displayed",
+        " Scenario 1: Successful Task Deletion\n     Given a logged-in user with an existing task\n     When the user chooses to delete the task\n     Then the task is deleted and no longer displayed in the task list",
+        " Scenario 2: Deleting a Non-Existent Task\n     Given a logged-in user\n     When the user attempts to delete a task that does not exist\n     Then an appropriate error message is displayed",
+        " Scenario 1: View Tasks - Existing Tasks\n     Given a logged-in user with existing tasks\n     When the user chooses to view all tasks\n     Then all the user's tasks are displayed",
+        " Scenario 2: View Tasks - No Existing Tasks\n     Given a logged-in user with no existing tasks\n     When the user chooses to view all tasks\n     Then a message indicating no tasks are present is displayed\n"
+    ]
+}

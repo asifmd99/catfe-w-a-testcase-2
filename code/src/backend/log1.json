@@ -1,0 +1,503 @@
+[
+    {
+        "candidates": [
+            {
+                "content": {
+                    "parts": [
+                        {
+                            "functionCall": {
+                                "name": "authUser",
+                                "args": {
+                                    "email": "testuser@test.com",
+                                    "password": "test123"
+                                }
+                            }
+                        }
+                    ],
+                    "role": "model"
+                },
+                "finishReason": "STOP",
+                "avgLogprobs": -1.7031977352287087e-08
+            }
+        ],
+        "usageMetadata": {
+            "promptTokenCount": 341,
+            "candidatesTokenCount": 14,
+            "totalTokenCount": 355,
+            "promptTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 341
+                }
+            ],
+            "candidatesTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 14
+                }
+            ]
+        },
+        "modelVersion": "gemini-1.5-pro-002"
+    },
+    {
+        "candidates": [
+            {
+                "content": {
+                    "parts": [
+                        {
+                            "functionCall": {
+                                "name": "authUser",
+                                "args": {
+                                    "password": "incorrect_password",
+                                    "email": "testuser@test.com"
+                                }
+                            }
+                        }
+                    ],
+                    "role": "model"
+                },
+                "finishReason": "STOP",
+                "avgLogprobs": -0.013986233335274916
+            }
+        ],
+        "usageMetadata": {
+            "promptTokenCount": 355,
+            "candidatesTokenCount": 13,
+            "totalTokenCount": 368,
+            "promptTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 355
+                }
+            ],
+            "candidatesTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 13
+                }
+            ]
+        },
+        "modelVersion": "gemini-1.5-pro-002"
+    },
+    {
+        "candidates": [
+            {
+                "content": {
+                    "parts": [
+                        {
+                            "functionCall": {
+                                "name": "authUser",
+                                "args": {
+                                    "password": "test123",
+                                    "email": "invaliduser@test.com"
+                                }
+                            }
+                        }
+                    ],
+                    "role": "model"
+                },
+                "finishReason": "STOP",
+                "avgLogprobs": -2.4182066096857724e-06
+            }
+        ],
+        "usageMetadata": {
+            "promptTokenCount": 355,
+            "candidatesTokenCount": 14,
+            "totalTokenCount": 369,
+            "promptTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 355
+                }
+            ],
+            "candidatesTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 14
+                }
+            ]
+        },
+        "modelVersion": "gemini-1.5-pro-002"
+    },
+    {
+        "candidates": [
+            {
+                "content": {
+                    "parts": [
+                        {
+                            "functionCall": {
+                                "name": "authUser",
+                                "args": {
+                                    "password": "",
+                                    "email": ""
+                                }
+                            }
+                        }
+                    ],
+                    "role": "model"
+                },
+                "finishReason": "STOP",
+                "avgLogprobs": -5.961192073300481e-08
+            }
+        ],
+        "usageMetadata": {
+            "promptTokenCount": 354,
+            "candidatesTokenCount": 4,
+            "totalTokenCount": 358,
+            "promptTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 354
+                }
+            ],
+            "candidatesTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 4
+                }
+            ]
+        },
+        "modelVersion": "gemini-1.5-pro-002"
+    },
+    {
+        "candidates": [
+            {
+                "content": {
+                    "parts": [
+                        {
+                            "functionCall": {
+                                "name": "authUser",
+                                "args": {
+                                    "password": "test123",
+                                    "email": "testuser@test.com"
+                                }
+                            }
+                        },
+                        {
+                            "functionCall": {
+                                "name": "createTask",
+                                "args": {
+                                    "status": 1,
+                                    "priority": 3,
+                                    "name": "Test Task",
+                                    "startTime": "2024-07-24T10:00:00",
+                                    "endTime": "2024-07-24T11:00:00"
+                                }
+                            }
+                        },
+                        {
+                            "functionCall": {
+                                "name": "getTaskList",
+                                "args": {
+                                    "priority": 0,
+                                    "status": 0
+                                }
+                            }
+                        }
+                    ],
+                    "role": "model"
+                },
+                "finishReason": "STOP",
+                "avgLogprobs": -0.02500323882469764
+            }
+        ],
+        "usageMetadata": {
+            "promptTokenCount": 347,
+            "candidatesTokenCount": 65,
+            "totalTokenCount": 412,
+            "promptTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 347
+                }
+            ],
+            "candidatesTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 65
+                }
+            ]
+        },
+        "modelVersion": "gemini-1.5-pro-002"
+    },
+    {
+        "candidates": [
+            {
+                "content": {
+                    "parts": [
+                        {
+                            "functionCall": {
+                                "name": "authUser",
+                                "args": {
+                                    "password": "test123",
+                                    "email": "testuser@test.com"
+                                }
+                            }
+                        },
+                        {
+                            "functionCall": {
+                                "name": "createTask",
+                                "args": {
+                                    "status": 1,
+                                    "endTime": "",
+                                    "name": "",
+                                    "priority": 1,
+                                    "startTime": ""
+                                }
+                            }
+                        }
+                    ],
+                    "role": "model"
+                },
+                "finishReason": "STOP",
+                "avgLogprobs": -0.00019616008337054933
+            }
+        ],
+        "usageMetadata": {
+            "promptTokenCount": 357,
+            "candidatesTokenCount": 21,
+            "totalTokenCount": 378,
+            "promptTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 357
+                }
+            ],
+            "candidatesTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 21
+                }
+            ]
+        },
+        "modelVersion": "gemini-1.5-pro-002"
+    },
+    {
+        "candidates": [
+            {
+                "content": {
+                    "parts": [
+                        {
+                            "functionCall": {
+                                "name": "authUser",
+                                "args": {
+                                    "password": "test123",
+                                    "email": "testuser@test.com"
+                                }
+                            }
+                        },
+                        {
+                            "functionCall": {
+                                "name": "createTask",
+                                "args": {
+                                    "name": "test_task",
+                                    "status": 1,
+                                    "endTime": "2024-07-24T02:31:18.159Z",
+                                    "priority": 3,
+                                    "startTime": "2024-07-24T01:31:18.159Z"
+                                }
+                            }
+                        },
+                        {
+                            "functionCall": {
+                                "name": "getTaskList",
+                                "args": {
+                                    "status": 0,
+                                    "priority": 0
+                                }
+                            }
+                        },
+                        {
+                            "functionCall": {
+                                "name": "deleteTask",
+                                "args": {
+                                    "taskIds": [
+                                        "3"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "functionCall": {
+                                "name": "getTaskList",
+                                "args": {
+                                    "status": 0,
+                                    "priority": 0
+                                }
+                            }
+                        }
+                    ],
+                    "role": "model"
+                },
+                "finishReason": "STOP",
+                "avgLogprobs": -0.15529845742618337
+            }
+        ],
+        "usageMetadata": {
+            "promptTokenCount": 354,
+            "candidatesTokenCount": 85,
+            "totalTokenCount": 439,
+            "promptTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 354
+                }
+            ],
+            "candidatesTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 85
+                }
+            ]
+        },
+        "modelVersion": "gemini-1.5-pro-002"
+    },
+    {
+        "candidates": [
+            {
+                "content": {
+                    "parts": [
+                        {
+                            "functionCall": {
+                                "name": "authUser",
+                                "args": {
+                                    "password": "test123",
+                                    "email": "testuser@test.com"
+                                }
+                            }
+                        },
+                        {
+                            "functionCall": {
+                                "name": "deleteTask",
+                                "args": {
+                                    "taskIds": [
+                                        "non_existent_task_id"
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "role": "model"
+                },
+                "finishReason": "STOP",
+                "avgLogprobs": -4.711096407845617e-06
+            }
+        ],
+        "usageMetadata": {
+            "promptTokenCount": 352,
+            "candidatesTokenCount": 25,
+            "totalTokenCount": 377,
+            "promptTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 352
+                }
+            ],
+            "candidatesTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 25
+                }
+            ]
+        },
+        "modelVersion": "gemini-1.5-pro-002"
+    },
+    {
+        "candidates": [
+            {
+                "content": {
+                    "parts": [
+                        {
+                            "functionCall": {
+                                "name": "authUser",
+                                "args": {
+                                    "password": "test123",
+                                    "email": "testuser@test.com"
+                                }
+                            }
+                        },
+                        {
+                            "functionCall": {
+                                "name": "getTaskList",
+                                "args": {
+                                    "status": 0,
+                                    "priority": 0
+                                }
+                            }
+                        }
+                    ],
+                    "role": "model"
+                },
+                "finishReason": "STOP",
+                "avgLogprobs": -0.025782002343071833
+            }
+        ],
+        "usageMetadata": {
+            "promptTokenCount": 351,
+            "candidatesTokenCount": 18,
+            "totalTokenCount": 369,
+            "promptTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 351
+                }
+            ],
+            "candidatesTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 18
+                }
+            ]
+        },
+        "modelVersion": "gemini-1.5-pro-002"
+    },
+    {
+        "candidates": [
+            {
+                "content": {
+                    "parts": [
+                        {
+                            "functionCall": {
+                                "name": "authUser",
+                                "args": {
+                                    "password": "test123",
+                                    "email": "testuser@test.com"
+                                }
+                            }
+                        },
+                        {
+                            "functionCall": {
+                                "name": "getTaskList",
+                                "args": {
+                                    "status": 0,
+                                    "priority": 0
+                                }
+                            }
+                        }
+                    ],
+                    "role": "model"
+                },
+                "finishReason": "STOP",
+                "avgLogprobs": -6.623546748111646e-09
+            }
+        ],
+        "usageMetadata": {
+            "promptTokenCount": 354,
+            "candidatesTokenCount": 18,
+            "totalTokenCount": 372,
+            "promptTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 354
+                }
+            ],
+            "candidatesTokensDetails": [
+                {
+                    "modality": "TEXT",
+                    "tokenCount": 18
+                }
+            ]
+        },
+        "modelVersion": "gemini-1.5-pro-002"
+    }
+]

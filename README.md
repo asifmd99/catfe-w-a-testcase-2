@@ -2,7 +2,6 @@ Context Aware Testing System for Financial Ecosystems
 
 ## 📌 Table of Contents
 - Introduction
-- Demo
 - Inspiration
 - What It Does
 - How We Built It
@@ -16,13 +15,6 @@ Context Aware Testing System for Financial Ecosystems
 ## 🎯 Introduction
 Our project is a Context Aware Testing System for Financial Ecosystems. It's a system that can
 dynamically generates test scenarios leveraging LLM(Gemini) based on contextual inputs to simulate real-world usage and edge cases effectively.
-
-## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
-🖼️ Screenshots:
-
-![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
 We were inspired by the complexity and critical nature of modern financial ecosystems, where a single overlooked edge case can result in system failures, financial losses, or regulatory issues. Manual test case creation is time-consuming and often lacks contextual depth, especially in systems that evolve rapidly.
@@ -42,7 +34,10 @@ GitHub integration: Pulling code recursively from repositories and filtering rel
 2. Install dependencies  
    pip install flask dotenv google_generativeai 
    npm install 
-3. Run the project  
+3. Create your personal access github token for accessing github apis
+4. Create an .env in code/src/backend folder and paste your personal access token. 
+   GITHUB_TOKEN = <token>
+5. Run the project  
    Backend- python main.py
    Frontend- npm run dev
    
